@@ -18,7 +18,7 @@
    django-admin startproject mysite . //The period . is crucial because it tells the script to 
    install    
    Django in your current directory (for which the period . is a short-hand reference).
-8. create a .gitignore file in the base project
+8. create a .gitignore file in the base project<br>
  	*.pyc <br/>
 	*~ <br/>
 	__ pycache __ <br/>
