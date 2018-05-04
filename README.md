@@ -6,9 +6,9 @@
 2. $ mkdir myDjango
 3. $ cd myDjango
 4. $ python3 -m venv myvenv
-5. $ source myvenv/bin/activate
-   remember to replace myvenv with your chosen virtualenv name!
-   sometimes source might not be available. In those cases try doing this instead:
+5. $ source myvenv/bin/activate<br>
+   //remember to replace myvenv with your chosen virtualenv name!<br>
+   sometimes source might not be available. In those cases try doing this instead:<br>
              command-line.  $ . myvenv/bin/activate
 6. $ pip install --upgrade pip //time to Create a django project
 6-1 if needed Remove any old versions of Django (optional)
