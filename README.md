@@ -29,8 +29,12 @@
 9. python manage.py runserver// quit run Ctrl +c <br/>
 
 
-some notes related to database//the example here is sql
+//some notes related to database//the example here is sql
 
 *change the models(in models.py)
 *run _python manage.py make migrations_ to create migrations for those changes
 *run _python manage.py migrate_ to apply those changes to the database
+
+//create and admin user
+$python manage.py createsuperuser
+
