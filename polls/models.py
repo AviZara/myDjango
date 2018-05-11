@@ -16,6 +16,10 @@ class Question(models.Model):
 	def was_published_recently(self):
 		now=timezone.now()
 		return now -datetime.timedelta(days=1) <= self.pub_date <= now
+	was_published_recently.admin_order_field='pub_date'
+	was_published_recently.boolen=True 
+	was_published_recently.short_description='published recently?'
+	search_fields=['question_text']
 
 class Choice(models.Model):
 	question=models.ForeignKey(Question, on_delete=models.CASCADE)
